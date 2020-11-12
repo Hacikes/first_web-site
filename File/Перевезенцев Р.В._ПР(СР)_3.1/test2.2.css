@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+body
+{
+	background: #0066cc;
+	font-family: 'Noto Sans JP', sans-serif ;
+	font-size: 130% ;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+h1,h2,h3,p,q,ul,aside,summary,footer,figcaption,ins
+{
+color: #FFE4B5;
+}
+
+h3{
+	font-size: 140%
+}
+
+#kek{
+	color:#191970;
+	background-color: #ADD8E6;
+}
+
+.che
+{
+	font-weight: bolder;
+	color: #F5DEB3;
+}
+
+
+
+
+a:visited{
+	color: #00FFFF;
+}
+
+a:active{
+	color: #A9A9A9;
+}
+
+.post-itm{
+	display: inline-block;
+	width: 23%
+}
+
+@media screen and (max-width: 999){
+	.post-itm{
+		width: 30%;
+	}
+}
